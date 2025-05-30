@@ -511,6 +511,15 @@ textarea {
     transition: var(--transition);
 }
 
+select, option {
+    color: #ffffff;
+    background-color: #1a1a1a;
+}
+
+select:focus, option:focus {
+    outline: 2px solid var(--primary-color);
+}
+
 input:focus,
 select:focus,
 textarea:focus {
